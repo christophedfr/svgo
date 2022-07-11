@@ -131,6 +131,11 @@ func (svg *SVG) Startraw(ns ...string) {
 	svg.genattr(ns)
 }
 
+// Make raw line
+func (svg *SVG) Raw(raw string) {
+	svg.print(raw)
+}
+
 // End the SVG document
 func (svg *SVG) End() { svg.println("</svg>") }
 
