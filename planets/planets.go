@@ -9,7 +9,7 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/ajstarks/svgo"
+	"github.com/christophedfr/svgo"
 )
 
 var ssDist = []float64{

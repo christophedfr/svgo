@@ -33,12 +33,12 @@ Metadata elements
 
 Usage: (assuming GOPATH is set)
 
-	go get github.com/ajstarks/svgo/float
+	go get github.com/christophedfr/svgo/float
 
 
 You can use godoc to browse the documentation from the command line:
 
-	$ go doc github.com/ajstarks/svgo/float
+	$ go doc github.com/christophedfr/svgo/float
 
 
 a minimal program, to generate SVG to standard output.
@@ -46,7 +46,7 @@ a minimal program, to generate SVG to standard output.
 	package main
 
 	import (
-		"github.com/ajstarks/svgo/float"
+		"github.com/christophedfr/svgo/float"
 		"os"
 	)
 
@@ -66,7 +66,7 @@ Drawing in a web server: (http://localhost:2003/circle)
 
 	import (
 		"log"
-		"github.com/ajstarks/svgo"
+		"github.com/christophedfr/svgo"
 		"net/http"
 	)
 

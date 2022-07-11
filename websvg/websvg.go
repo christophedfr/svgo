@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ajstarks/svgo"
+	"github.com/christophedfr/svgo"
 )
 
 const defaultstyle = "fill:rgb(127,0,0)"

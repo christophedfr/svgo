@@ -272,7 +272,7 @@ import (
 	"math/rand"
 	"os"
 	"time"
-	"github.com/ajstarks/svgo"
+	"github.com/christophedfr/svgo"
 )
 
 func rn(n int) int { return rand.Intn(n) }
@@ -302,7 +302,7 @@ import (
 	"math/rand"
 	"os"
 	"time"
-	"github.com/ajstarks/svgo/float"
+	"github.com/christophedfr/svgo/float"
 )
 
 func rn(n float64) float64 { return rand.Float64() * n }

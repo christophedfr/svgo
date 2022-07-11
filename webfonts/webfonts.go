@@ -11,7 +11,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ajstarks/svgo"
+	"github.com/christophedfr/svgo"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/ajstarks/svgo"
+	"github.com/christophedfr/svgo"
 )
 
 // shotdata defines the shotchart JSON response from stats.nba.com

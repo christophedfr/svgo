@@ -19,7 +19,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ajstarks/svgo"
+	"github.com/christophedfr/svgo"
 )
 
 var canvas = svg.New(os.Stdout)
